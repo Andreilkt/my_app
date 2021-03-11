@@ -1,8 +1,33 @@
 git init
 git add your_file
-git commit -m "first commit"
+git commit -m "first commit"git
 git remote add origin https://github.com/you_repository/you_project
 git push -u origin master
 git commit -m "create project"
 
 http://dev-blogs.com/git-hub-how-to-upload/
+
+
+git config --global user.name "user"
+git config --global user.email user@example.com
+
+git remote -v
+origin  https://github.com/your_account/your_project (fetch)
+origin  https://github.com/your_account/your_project (push)git
+
+git push origin master
+git remote add ourRep https://additional_git_address/andreilkt/my_app
+git push my_app master
+
+
+echo "# my_app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Andreilkt/my_app.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Andreilkt/my_app.git
+git branch -M main
+git push -u origin main
